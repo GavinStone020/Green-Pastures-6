@@ -1,17 +1,25 @@
 header, main, nav, footer, figure, figcaption, aside, section, article {display:block;}
+h3 {
+color: #006646;	
+}
+tr:nth-of-type(odd){
+	background-color: #ECF9EC;
+	}
+	
 table {
 border-collapse:collapse;
 border: 1px solid #006600;
 
 }
-td, th {
+td {
 padding: 0.5em;
-border: 1px solid #ECF9EC;
+border: 1px solid #006600;
 }
-h3 {
-color: #006646;	
+
+th {
+padding: 0.5em;
+border: 1px solid #006600;
 }
-tr:nth-of-type(odd) {background-color: #ECF9EC;}
 body {
 background-color:#FFFFFF; color:#666666; font-family: Helvetica;
 }
