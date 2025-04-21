@@ -1,10 +1,24 @@
 header, main, nav, footer, figure, figcaption, aside, section, article {display:block;}
+
 h3 {
 color: #006646;	
 }
 tr:nth-of-type(odd){
 	background-color: #ECF9EC;
 	}
+	
+label {
+float: left;
+display: block;
+text-align: right;
+width: 125px;
+padding-right: 2em;
+}
+input {
+display: block;
+margin-bottom: 20px;
+}
+ input[type="submit"] {margin-left: 135px;}
 	
 table {
 border-collapse:collapse;
@@ -250,8 +264,12 @@ height: 0;
 
 #desktop {display: none;}
 
+label {float: none; text-align:left;}
+input[type=”submit”] {margin-left:0}
+
 }
 
  
 * { box-sizing:border-box;
 }
+
